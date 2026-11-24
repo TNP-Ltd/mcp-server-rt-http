@@ -1,0 +1,9 @@
+{
+  "name": "mcp-server-rt-image",
+  "private": true,
+  "description": "mcp-server-rt (stdio) behind supergateway (Streamable HTTP)",
+  "dependencies": {
+    "mcp-server-rt": "0.3.0",
+    "supergateway": "4.2.4"
+  }
+}
