@@ -1,0 +1,190 @@
+{
+ "next_page": "http://127.0.0.1:8080/REST/2.0/ticket/1/attachments?fields=Filename%2CContentType%2CContentLength%2CSubject&page=2",
+ "per_page": 20,
+ "total": 39,
+ "pages": 2,
+ "page": 1,
+ "items": [
+  {
+   "ContentType": "multipart/mixed",
+   "ContentLength": "0",
+   "Filename": "",
+   "type": "attachment",
+   "Subject": "Replacement switches PO",
+   "id": "1",
+   "_url": "http://localhost/REST/2.0/attachment/1"
+  },
+  {
+   "id": "2",
+   "_url": "http://localhost/REST/2.0/attachment/2",
+   "Subject": "",
+   "Filename": "",
+   "type": "attachment",
+   "ContentLength": "0",
+   "ContentType": "multipart/related"
+  },
+  {
+   "Filename": "",
+   "type": "attachment",
+   "ContentType": "multipart/alternative",
+   "ContentLength": "0",
+   "id": "3",
+   "_url": "http://localhost/REST/2.0/attachment/3",
+   "Subject": ""
+  },
+  {
+   "type": "attachment",
+   "Filename": "",
+   "ContentType": "text/plain",
+   "ContentLength": "148",
+   "_url": "http://localhost/REST/2.0/attachment/4",
+   "id": "4",
+   "Subject": ""
+  },
+  {
+   "ContentType": "text/html",
+   "ContentLength": "8415",
+   "Filename": "",
+   "type": "attachment",
+   "Subject": "",
+   "_url": "http://localhost/REST/2.0/attachment/5",
+   "id": "5"
+  },
+  {
+   "Subject": "",
+   "id": "6",
+   "_url": "http://localhost/REST/2.0/attachment/6",
+   "ContentType": "image/png",
+   "ContentLength": "6008",
+   "Filename": "image001.png",
+   "type": "attachment"
+  },
+  {
+   "Subject": "",
+   "id": "7",
+   "_url": "http://localhost/REST/2.0/attachment/7",
+   "ContentType": "application/pdf",
+   "ContentLength": "150009",
+   "Filename": "PO-48213.pdf",
+   "type": "attachment"
+  },
+  {
+   "ContentType": "multipart/alternative",
+   "ContentLength": "0",
+   "Filename": "",
+   "type": "attachment",
+   "Subject": "[example.com #1] AutoReply: Replacement switches PO",
+   "_url": "http://localhost/REST/2.0/attachment/8",
+   "id": "8"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/9",
+   "id": "9",
+   "Subject": "",
+   "Filename": "",
+   "type": "attachment",
+   "ContentType": "text/plain",
+   "ContentLength": "1367"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/10",
+   "id": "10",
+   "Subject": "",
+   "Filename": "",
+   "type": "attachment",
+   "ContentLength": "2690",
+   "ContentType": "text/html"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/11",
+   "id": "11",
+   "Subject": "[example.com #1] Replacement switches PO",
+   "Filename": "",
+   "type": "attachment",
+   "ContentType": "multipart/alternative",
+   "ContentLength": "0"
+  },
+  {
+   "Filename": "",
+   "type": "attachment",
+   "ContentLength": "958",
+   "ContentType": "text/plain",
+   "id": "12",
+   "_url": "http://localhost/REST/2.0/attachment/12",
+   "Subject": ""
+  },
+  {
+   "Subject": "",
+   "id": "13",
+   "_url": "http://localhost/REST/2.0/attachment/13",
+   "ContentType": "text/html",
+   "ContentLength": "2923",
+   "Filename": "",
+   "type": "attachment"
+  },
+  {
+   "ContentLength": "0",
+   "ContentType": "multipart/alternative",
+   "Filename": "",
+   "type": "attachment",
+   "Subject": "[example.com #1] Replacement switches PO",
+   "_url": "http://localhost/REST/2.0/attachment/14",
+   "id": "14"
+  },
+  {
+   "Subject": "",
+   "id": "15",
+   "_url": "http://localhost/REST/2.0/attachment/15",
+   "ContentLength": "680",
+   "ContentType": "text/plain",
+   "Filename": "",
+   "type": "attachment"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/16",
+   "id": "16",
+   "Subject": "",
+   "Filename": "",
+   "type": "attachment",
+   "ContentType": "text/html",
+   "ContentLength": "2170"
+  },
+  {
+   "Filename": "",
+   "type": "attachment",
+   "ContentLength": "0",
+   "ContentType": "multipart/alternative",
+   "id": "17",
+   "_url": "http://localhost/REST/2.0/attachment/17",
+   "Subject": "[example.com #1] Replacement switches PO"
+  },
+  {
+   "ContentLength": "325",
+   "ContentType": "text/plain",
+   "Filename": "",
+   "type": "attachment",
+   "Subject": "",
+   "id": "18",
+   "_url": "http://localhost/REST/2.0/attachment/18"
+  },
+  {
+   "Subject": "",
+   "_url": "http://localhost/REST/2.0/attachment/19",
+   "id": "19",
+   "ContentType": "text/html",
+   "ContentLength": "800",
+   "Filename": "",
+   "type": "attachment"
+  },
+  {
+   "ContentType": "text/plain",
+   "ContentLength": "100",
+   "type": "attachment",
+   "Filename": "",
+   "Subject": "",
+   "_url": "http://localhost/REST/2.0/attachment/20",
+   "id": "20"
+  }
+ ],
+ "count": 20
+}

@@ -1,0 +1,28 @@
+{
+ "NewValue": "open",
+ "OldValue": "new",
+ "id": 55,
+ "Field": "Status",
+ "Type": "Status",
+ "TimeTaken": "0",
+ "_hyperlinks": [
+  {
+   "ref": "self",
+   "id": 55,
+   "_url": "http://localhost/REST/2.0/transaction/55",
+   "type": "transaction"
+  }
+ ],
+ "Created": "2026-11-26T19:12:45Z",
+ "Creator": {
+  "id": "root",
+  "_url": "http://localhost/REST/2.0/user/root",
+  "type": "user"
+ },
+ "Object": {
+  "_url": "http://localhost/Ticket/Display.html?id=1",
+  "type": "ticket",
+  "id": "1"
+ },
+ "Attachments": []
+}

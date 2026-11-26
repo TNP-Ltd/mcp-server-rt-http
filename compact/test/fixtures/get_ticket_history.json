@@ -1,0 +1,309 @@
+{
+ "items": [
+  {
+   "Created": "2026-11-26T19:12:44Z",
+   "type": "transaction",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root",
+    "type": "user"
+   },
+   "OldValue": "",
+   "NewValue": "",
+   "Field": "",
+   "Type": "Create",
+   "id": "46",
+   "_url": "http://localhost/REST/2.0/transaction/46"
+  },
+  {
+   "type": "transaction",
+   "Creator": {
+    "id": "RT_System",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user"
+   },
+   "Created": "2026-11-26T19:12:44Z",
+   "Field": "",
+   "Type": "EmailRecord",
+   "_url": "http://localhost/REST/2.0/transaction/47",
+   "id": "47",
+   "OldValue": "",
+   "NewValue": ""
+  },
+  {
+   "OldValue": "",
+   "NewValue": "",
+   "Field": "",
+   "Type": "EmailRecord",
+   "_url": "http://localhost/REST/2.0/transaction/48",
+   "id": "48",
+   "Created": "2026-11-26T19:12:44Z",
+   "type": "transaction",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user",
+    "id": "RT_System"
+   }
+  },
+  {
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user",
+    "id": "RT_System"
+   },
+   "type": "transaction",
+   "Created": "2026-11-26T19:12:44Z",
+   "id": "49",
+   "_url": "http://localhost/REST/2.0/transaction/49",
+   "Type": "EmailRecord",
+   "Field": "",
+   "NewValue": "",
+   "OldValue": ""
+  },
+  {
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root"
+   },
+   "type": "transaction",
+   "Created": "2026-11-26T19:12:45Z",
+   "_url": "http://localhost/REST/2.0/transaction/50",
+   "id": "50",
+   "Type": "CustomField",
+   "Field": "2",
+   "NewValue": "Customer 042 Ltd",
+   "OldValue": ""
+  },
+  {
+   "type": "transaction",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root"
+   },
+   "Created": "2026-11-26T19:12:45Z",
+   "Type": "CustomField",
+   "Field": "3",
+   "id": "51",
+   "_url": "http://localhost/REST/2.0/transaction/51",
+   "OldValue": "",
+   "NewValue": "Leeds DC"
+  },
+  {
+   "type": "transaction",
+   "Creator": {
+    "id": "root",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "type": "user"
+   },
+   "Created": "2026-11-26T19:12:45Z",
+   "Type": "Set",
+   "Field": "Owner",
+   "_url": "http://localhost/REST/2.0/transaction/52",
+   "id": "52",
+   "OldValue": "6",
+   "NewValue": "31"
+  },
+  {
+   "Creator": {
+    "id": "RT_System",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user"
+   },
+   "type": "transaction",
+   "Created": "2026-11-26T19:12:45Z",
+   "_url": "http://localhost/REST/2.0/transaction/53",
+   "id": "53",
+   "Type": "EmailRecord",
+   "Field": "",
+   "NewValue": "",
+   "OldValue": ""
+  },
+  {
+   "id": "54",
+   "_url": "http://localhost/REST/2.0/transaction/54",
+   "Field": "Owner",
+   "Type": "SetWatcher",
+   "NewValue": "31",
+   "OldValue": "6",
+   "type": "transaction",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "type": "user",
+    "id": "root"
+   },
+   "Created": "2026-11-26T19:12:45Z"
+  },
+  {
+   "Created": "2026-11-26T19:12:45Z",
+   "type": "transaction",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "type": "user",
+    "id": "root"
+   },
+   "OldValue": "new",
+   "NewValue": "open",
+   "Field": "Status",
+   "Type": "Status",
+   "id": "55",
+   "_url": "http://localhost/REST/2.0/transaction/55"
+  },
+  {
+   "Type": "Correspond",
+   "Field": "",
+   "id": "56",
+   "_url": "http://localhost/REST/2.0/transaction/56",
+   "OldValue": "",
+   "NewValue": "",
+   "type": "transaction",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root",
+    "type": "user"
+   },
+   "Created": "2026-11-26T19:12:45Z"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/transaction/57",
+   "id": "57",
+   "Type": "EmailRecord",
+   "Field": "",
+   "NewValue": "",
+   "OldValue": "",
+   "type": "transaction",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "id": "RT_System"
+   },
+   "Created": "2026-11-26T19:12:45Z"
+  },
+  {
+   "Created": "2026-11-26T19:12:45Z",
+   "type": "transaction",
+   "Creator": {
+    "id": "RT_System",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user"
+   },
+   "OldValue": "",
+   "NewValue": "",
+   "Field": "",
+   "Type": "EmailRecord",
+   "id": "58",
+   "_url": "http://localhost/REST/2.0/transaction/58"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/transaction/59",
+   "id": "59",
+   "Type": "Comment",
+   "Field": "",
+   "NewValue": "",
+   "OldValue": "",
+   "type": "transaction",
+   "Creator": {
+    "id": "root",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "type": "user"
+   },
+   "Created": "2026-11-26T19:12:45Z"
+  },
+  {
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "id": "RT_System",
+    "type": "user"
+   },
+   "type": "transaction",
+   "Created": "2026-11-26T19:12:45Z",
+   "Field": "",
+   "Type": "CommentEmailRecord",
+   "id": "60",
+   "_url": "http://localhost/REST/2.0/transaction/60",
+   "OldValue": "",
+   "NewValue": ""
+  },
+  {
+   "NewValue": "50",
+   "OldValue": "0",
+   "id": "61",
+   "_url": "http://localhost/REST/2.0/transaction/61",
+   "Field": "Priority",
+   "Type": "Set",
+   "Created": "2026-11-26T19:12:45Z",
+   "type": "transaction",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root"
+   }
+  },
+  {
+   "NewValue": "2026-12-01 17:00:00",
+   "OldValue": "1970-01-01 00:00:00",
+   "id": "62",
+   "_url": "http://localhost/REST/2.0/transaction/62",
+   "Field": "Due",
+   "Type": "Set",
+   "Created": "2026-11-26T19:12:45Z",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "type": "user",
+    "id": "root"
+   },
+   "type": "transaction"
+  },
+  {
+   "type": "transaction",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "type": "user",
+    "id": "root"
+   },
+   "Created": "2026-11-26T19:12:45Z",
+   "_url": "http://localhost/REST/2.0/transaction/63",
+   "id": "63",
+   "Field": "",
+   "Type": "Correspond",
+   "NewValue": "",
+   "OldValue": ""
+  },
+  {
+   "_url": "http://localhost/REST/2.0/transaction/64",
+   "id": "64",
+   "Type": "EmailRecord",
+   "Field": "",
+   "NewValue": "",
+   "OldValue": "",
+   "type": "transaction",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user",
+    "id": "RT_System"
+   },
+   "Created": "2026-11-26T19:12:45Z"
+  },
+  {
+   "OldValue": "",
+   "NewValue": "",
+   "Field": "",
+   "Type": "EmailRecord",
+   "_url": "http://localhost/REST/2.0/transaction/65",
+   "id": "65",
+   "Created": "2026-11-26T19:12:45Z",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "id": "RT_System"
+   },
+   "type": "transaction"
+  }
+ ],
+ "count": 20,
+ "per_page": 20,
+ "total": 20,
+ "pages": 1,
+ "page": 1
+}

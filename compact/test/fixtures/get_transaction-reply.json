@@ -1,0 +1,59 @@
+{
+ "_hyperlinks": [
+  {
+   "type": "transaction",
+   "_url": "http://localhost/REST/2.0/transaction/56",
+   "id": 56,
+   "ref": "self"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/20",
+   "ref": "attachment"
+  }
+ ],
+ "Created": "2026-11-26T19:12:45Z",
+ "Creator": {
+  "id": "root",
+  "_url": "http://localhost/REST/2.0/user/root",
+  "type": "user"
+ },
+ "Object": {
+  "type": "ticket",
+  "_url": "http://localhost/Ticket/Display.html?id=1",
+  "id": "1"
+ },
+ "Data": "No Subject",
+ "id": 56,
+ "Type": "Correspond",
+ "TimeTaken": "0",
+ "Attachments": [
+  {
+   "Content": "Hi Alice,\n\nThanks, we've received the PO and the switches are booked for Tuesday.\n\nRegards,\nSupport\n",
+   "id": 20,
+   "TransactionId": {
+    "type": "transaction",
+    "_url": "http://localhost/REST/2.0/transaction/56",
+    "id": "56"
+   },
+   "Subject": "",
+   "Headers": "Content-Transfer-Encoding: binary\nContent-Type: text/plain; charset=\"utf-8\"\nMIME-Version: 1.0\nX-RT-Interface: API\nContent-Disposition: inline\nX-Mailer: MIME-tools 5.522 (Entity 5.522)\nX-RT-Original-Encoding: utf-8\nRT-Message-ID: <rt-5.0.11-68-1795720365-716.1-0-0@example.com>\nContent-Length: 100",
+   "MessageId": "",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root"
+   },
+   "Parent": "0",
+   "ContentType": "text/plain",
+   "Created": "2026-11-26T19:12:45Z",
+   "_hyperlinks": [
+    {
+     "type": "attachment",
+     "_url": "http://localhost/REST/2.0/attachment/20",
+     "id": 20,
+     "ref": "self"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "id": 1,
+ "Name": "General",
+ "Lifecycle": "default",
+ "CustomFields": [
+  {
+   "LastUpdatedBy": {
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "id": "RT_System",
+    "type": "user"
+   },
+   "_hyperlinks": [
+    {
+     "ref": "self",
+     "type": "customfield",
+     "_url": "http://localhost/REST/2.0/customfield/2",
+     "id": 2
+    },
+    {
+     "_url": "http://localhost/REST/2.0/customfield/2/values",
+     "ref": "customfieldvalues"
+    }
+   ],
+   "id": 2,
+   "Values": [
+    "Customer 001 Ltd",
+    "Customer 002 Ltd",
+    "Customer 003 Ltd",
+    "Customer 004 Ltd",
+    "Customer 005 Ltd"
+   ],
+   "UniqueValues": "0",
+   "LastUpdated": "2026-11-26T19:12:41Z",
+   "Type": "Select",
+   "MaxValues": "1",
+   "Creator": {
+    "id": "RT_System",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user"
+   },
+   "Name": "Customer",
+   "Created": "2026-11-26T19:12:41Z",
+   "EntryHint": "Select one value",
+   "Pattern": "",
+   "Disabled": "0",
+   "Description": "",
+   "SortOrder": "0",
+   "LookupType": "RT::Queue-RT::Ticket",
+   "ContentFormat": "plain-text"
+  },
+  {
+   "_hyperlinks": [
+    {
+     "id": 3,
+     "_url": "http://localhost/REST/2.0/customfield/3",
+     "type": "customfield",
+     "ref": "self"
+    }
+   ],
+   "LastUpdatedBy": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "id": "RT_System"
+   },
+   "Type": "Freeform",
+   "LastUpdated": "2026-11-26T19:12:44Z",
+   "UniqueValues": "0",
+   "id": 3,
+   "Creator": {
+    "id": "RT_System",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user"
+   },
+   "MaxValues": "1",
+   "Created": "2026-11-26T19:12:44Z",
+   "EntryHint": "Enter one value",
+   "Name": "Site",
+   "Description": "",
+   "Disabled": "0",
+   "Pattern": "",
+   "LookupType": "RT::Queue-RT::Ticket",
+   "SortOrder": "0",
+   "ContentFormat": "plain-text"
+  },
+  {
+   "Created": "2026-11-26T19:12:44Z",
+   "EntryHint": "Enter one value",
+   "Name": "Contract ref",
+   "Creator": {
+    "id": "RT_System",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user"
+   },
+   "MaxValues": "1",
+   "LookupType": "RT::Queue-RT::Ticket",
+   "SortOrder": "0",
+   "Description": "",
+   "Disabled": "0",
+   "Pattern": "",
+   "_hyperlinks": [
+    {
+     "type": "customfield",
+     "_url": "http://localhost/REST/2.0/customfield/4",
+     "id": 4,
+     "ref": "self"
+    }
+   ],
+   "LastUpdatedBy": {
+    "id": "RT_System",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user"
+   },
+   "Type": "Freeform",
+   "LastUpdated": "2026-11-26T19:12:44Z",
+   "UniqueValues": "0",
+   "id": 4,
+   "ContentFormat": "plain-text"
+  },
+  {
+   "LastUpdated": "2026-11-26T19:12:44Z",
+   "Type": "Select",
+   "Values": [
+    "Billing",
+    "Hardware",
+    "Network",
+    "Other",
+    "Software"
+   ],
+   "id": 5,
+   "UniqueValues": "0",
+   "LastUpdatedBy": {
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user",
+    "id": "RT_System"
+   },
+   "_hyperlinks": [
+    {
+     "_url": "http://localhost/REST/2.0/customfield/5",
+     "type": "customfield",
+     "id": 5,
+     "ref": "self"
+    },
+    {
+     "ref": "customfieldvalues",
+     "_url": "http://localhost/REST/2.0/customfield/5/values"
+    }
+   ],
+   "SortOrder": "0",
+   "LookupType": "RT::Queue-RT::Ticket",
+   "Description": "",
+   "Pattern": "",
+   "Disabled": "0",
+   "Name": "Category",
+   "Created": "2026-11-26T19:12:44Z",
+   "EntryHint": "Select one value",
+   "MaxValues": "1",
+   "Creator": {
+    "id": "RT_System",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "type": "user"
+   },
+   "ContentFormat": "plain-text"
+  },
+  {
+   "LastUpdatedBy": {
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "id": "RT_System",
+    "type": "user"
+   },
+   "_hyperlinks": [
+    {
+     "id": 6,
+     "_url": "http://localhost/REST/2.0/customfield/6",
+     "type": "customfield",
+     "ref": "self"
+    }
+   ],
+   "LastUpdated": "2026-11-26T19:12:44Z",
+   "Type": "Text",
+   "id": 6,
+   "UniqueValues": "0",
+   "MaxValues": "1",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/RT_System",
+    "id": "RT_System"
+   },
+   "Name": "Notes",
+   "EntryHint": "Fill in one text area",
+   "Created": "2026-11-26T19:12:44Z",
+   "Description": "",
+   "Pattern": "",
+   "Disabled": "0",
+   "SortOrder": "0",
+   "LookupType": "RT::Queue-RT::Ticket",
+   "ContentFormat": "plain-text-multiline"
+  }
+ ],
+ "QueueCustomFields": [],
+ "TransactionCustomFields": []
+}

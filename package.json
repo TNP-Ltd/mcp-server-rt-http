@@ -4,6 +4,10 @@
   "description": "mcp-server-rt (stdio) behind supergateway (Streamable HTTP)",
   "dependencies": {
     "mcp-server-rt": "0.3.0",
-    "supergateway": "4.2.4"
+    "supergateway": "4.2.4",
+    "node-html-markdown": "2.0.0"
+  },
+  "scripts": {
+    "test": "node --test compact/"
   }
 }

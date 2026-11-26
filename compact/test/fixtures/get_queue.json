@@ -1,0 +1,87 @@
+{
+ "Created": "2026-11-22T12:53:57Z",
+ "TicketTransactionCustomFields": [],
+ "Name": "General",
+ "Lifecycle": "default",
+ "Creator": {
+  "_url": "http://localhost/REST/2.0/user/RT_System",
+  "id": "RT_System",
+  "type": "user"
+ },
+ "SortOrder": "0",
+ "Cc": [],
+ "Description": "The default queue",
+ "Disabled": "0",
+ "_hyperlinks": [
+  {
+   "type": "queue",
+   "_url": "http://localhost/REST/2.0/queue/1",
+   "id": 1,
+   "ref": "self"
+  },
+  {
+   "ref": "history",
+   "_url": "http://localhost/REST/2.0/queue/1/history"
+  },
+  {
+   "type": "ticket",
+   "_url": "http://localhost/REST/2.0/ticket?Queue=1",
+   "ref": "create"
+  }
+ ],
+ "LastUpdatedBy": {
+  "type": "user",
+  "_url": "http://localhost/REST/2.0/user/RT_System",
+  "id": "RT_System"
+ },
+ "AdminCc": [
+  {
+   "_url": "http://localhost/REST/2.0/user/staff1",
+   "type": "user",
+   "id": "staff1"
+  }
+ ],
+ "CustomFields": [],
+ "CorrespondAddress": "",
+ "SLADisabled": "1",
+ "CommentAddress": "",
+ "LastUpdated": "2026-11-26T19:12:44Z",
+ "TicketCustomFields": [
+  {
+   "type": "customfield",
+   "id": "2",
+   "_url": "http://localhost/REST/2.0/customfield/2",
+   "name": "Customer",
+   "ref": "customfield"
+  },
+  {
+   "ref": "customfield",
+   "id": "3",
+   "type": "customfield",
+   "_url": "http://localhost/REST/2.0/customfield/3",
+   "name": "Site"
+  },
+  {
+   "name": "Contract ref",
+   "id": "4",
+   "type": "customfield",
+   "_url": "http://localhost/REST/2.0/customfield/4",
+   "ref": "customfield"
+  },
+  {
+   "name": "Category",
+   "id": "5",
+   "type": "customfield",
+   "_url": "http://localhost/REST/2.0/customfield/5",
+   "ref": "customfield"
+  },
+  {
+   "ref": "customfield",
+   "type": "customfield",
+   "id": "6",
+   "_url": "http://localhost/REST/2.0/customfield/6",
+   "name": "Notes"
+  }
+ ],
+ "id": 1
+}

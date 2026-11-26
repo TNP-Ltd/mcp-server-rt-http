@@ -7,6 +7,9 @@ LABEL org.opencontainers.image.title="mcp-server-rt" \
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci --omit=dev --ignore-scripts --no-audit --no-fund && npm cache clean --force
+# rt-compact runs mcp-server-rt and shrinks its read-tool results (compact/transform.mjs).
+COPY compact/index.mjs compact/transform.mjs /app/compact/
+RUN chmod 755 /app/compact/index.mjs && ln -s /app/compact/index.mjs /usr/local/bin/rt-compact
 COPY --chmod=755 entrypoint.sh /usr/local/bin/entrypoint.sh
 
 ENV PATH=/app/node_modules/.bin:$PATH \
@@ -14,4 +17,4 @@ ENV PATH=/app/node_modules/.bin:$PATH \
 USER 1000:1000
 EXPOSE 8000
 ENTRYPOINT ["entrypoint.sh"]
-CMD ["--stdio=mcp-server-rt", "--outputTransport=streamableHttp", "--port=8000", "--healthEndpoint=/healthz"]
+CMD ["--stdio=rt-compact", "--outputTransport=streamableHttp", "--port=8000", "--healthEndpoint=/healthz"]

@@ -1,0 +1,179 @@
+{
+ "Started": "2026-11-26T19:12:45Z",
+ "Requestor": [
+  {
+   "_url": "http://localhost/REST/2.0/user/alice@customer.example",
+   "type": "user",
+   "id": "alice@customer.example"
+  }
+ ],
+ "Queue": {
+  "id": "1",
+  "_url": "http://localhost/REST/2.0/queue/1",
+  "type": "queue"
+ },
+ "FinalPriority": "0",
+ "Creator": {
+  "_url": "http://localhost/REST/2.0/user/root",
+  "id": "root",
+  "type": "user"
+ },
+ "Told": "2026-11-26T19:12:45Z",
+ "Due": "2026-12-01T17:00:00Z",
+ "Type": "ticket",
+ "TimeEstimated": "0",
+ "CustomFields": [
+  {
+   "id": "3",
+   "values": [
+    "Leeds DC"
+   ],
+   "type": "customfield",
+   "_url": "http://localhost/REST/2.0/customfield/3",
+   "name": "Site"
+  },
+  {
+   "name": "Notes",
+   "id": "6",
+   "values": [],
+   "_url": "http://localhost/REST/2.0/customfield/6",
+   "type": "customfield"
+  },
+  {
+   "values": [],
+   "type": "customfield",
+   "id": "4",
+   "_url": "http://localhost/REST/2.0/customfield/4",
+   "name": "Contract ref"
+  },
+  {
+   "name": "Customer",
+   "type": "customfield",
+   "values": [
+    "Customer 042 Ltd"
+   ],
+   "id": "2",
+   "_url": "http://localhost/REST/2.0/customfield/2"
+  },
+  {
+   "type": "customfield",
+   "values": [],
+   "id": "5",
+   "_url": "http://localhost/REST/2.0/customfield/5",
+   "name": "Category"
+  }
+ ],
+ "Priority": "50",
+ "_hyperlinks": [
+  {
+   "_url": "http://localhost/Ticket/Display.html?id=1",
+   "id": 1,
+   "type": "ticket",
+   "ref": "self"
+  },
+  {
+   "ref": "customfield",
+   "name": "Customer",
+   "type": "customfield",
+   "_url": "http://localhost/REST/2.0/customfield/2",
+   "id": "2"
+  },
+  {
+   "ref": "customfield",
+   "name": "Site",
+   "type": "customfield",
+   "_url": "http://localhost/REST/2.0/customfield/3",
+   "id": "3"
+  },
+  {
+   "ref": "customfield",
+   "type": "customfield",
+   "_url": "http://localhost/REST/2.0/customfield/4",
+   "id": "4",
+   "name": "Contract ref"
+  },
+  {
+   "name": "Category",
+   "id": "5",
+   "type": "customfield",
+   "_url": "http://localhost/REST/2.0/customfield/5",
+   "ref": "customfield"
+  },
+  {
+   "ref": "customfield",
+   "name": "Notes",
+   "type": "customfield",
+   "_url": "http://localhost/REST/2.0/customfield/6",
+   "id": "6"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/ticket/1/history",
+   "ref": "history"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/ticket/1/correspond",
+   "ref": "correspond"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/ticket/1/comment",
+   "ref": "comment"
+  },
+  {
+   "to": "stalled",
+   "label": "Stall",
+   "ref": "lifecycle",
+   "_url": "http://localhost/REST/2.0/ticket/1/comment",
+   "update": "Comment",
+   "from": "open"
+  },
+  {
+   "from": "open",
+   "_url": "http://localhost/REST/2.0/ticket/1/comment",
+   "update": "Comment",
+   "to": "resolved",
+   "label": "Resolve",
+   "ref": "lifecycle"
+  },
+  {
+   "update": "Respond",
+   "_url": "http://localhost/REST/2.0/ticket/1/correspond",
+   "from": "open",
+   "ref": "lifecycle",
+   "label": "Reject",
+   "to": "rejected"
+  }
+ ],
+ "TimeWorked": "0",
+ "Cc": [
+  {
+   "type": "user",
+   "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+   "id": "bob@customer.example"
+  }
+ ],
+ "Status": "open",
+ "Resolved": "1970-01-01T00:00:00Z",
+ "EffectiveId": {
+  "_url": "http://localhost/Ticket/Display.html?id=1",
+  "type": "ticket",
+  "id": "1"
+ },
+ "Owner": {
+  "_url": "http://localhost/REST/2.0/user/staff1",
+  "type": "user",
+  "id": "staff1"
+ },
+ "Starts": "1970-01-01T00:00:00Z",
+ "InitialPriority": "0",
+ "Created": "2026-11-26T19:12:44Z",
+ "LastUpdated": "2026-11-26T19:12:45Z",
+ "id": 1,
+ "TimeLeft": "0",
+ "Subject": "Replacement switches PO",
+ "AdminCc": [],
+ "LastUpdatedBy": {
+  "id": "root",
+  "_url": "http://localhost/REST/2.0/user/root",
+  "type": "user"
+ }
+}

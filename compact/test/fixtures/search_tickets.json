@@ -1,0 +1,473 @@
+{
+ "pages": 1,
+ "page": 1,
+ "total": 16,
+ "per_page": 20,
+ "count": 16,
+ "items": [
+  {
+   "Subject": "Ticket 1: printer on floor 1 not working",
+   "_url": "http://localhost/Ticket/Display.html?id=2",
+   "id": "2",
+   "Status": "new",
+   "Queue": {
+    "Name": "General",
+    "id": "1",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "type": "queue"
+   },
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Requestor": [
+    {
+     "id": "bob@customer.example",
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "type": "user"
+    }
+   ],
+   "Due": "1970-01-01T00:00:00Z",
+   "type": "ticket",
+   "Owner": {
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "type": "user",
+    "id": "Nobody",
+    "Name": "Nobody"
+   },
+   "Priority": "0"
+  },
+  {
+   "Subject": "Ticket 2: printer on floor 2 not working",
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Requestor": [
+    {
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "type": "user",
+     "id": "bob@customer.example"
+    }
+   ],
+   "Queue": {
+    "type": "queue",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "Name": "General"
+   },
+   "Status": "new",
+   "id": "3",
+   "_url": "http://localhost/Ticket/Display.html?id=3",
+   "Due": "1970-01-01T00:00:00Z",
+   "Priority": "0",
+   "Owner": {
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "type": "user",
+    "id": "Nobody",
+    "Name": "Nobody"
+   },
+   "type": "ticket"
+  },
+  {
+   "Subject": "Ticket 3: printer on floor 3 not working",
+   "id": "4",
+   "_url": "http://localhost/Ticket/Display.html?id=4",
+   "Status": "new",
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Requestor": [
+    {
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "type": "user",
+     "id": "bob@customer.example"
+    }
+   ],
+   "Queue": {
+    "Name": "General",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "type": "queue"
+   },
+   "Due": "1970-01-01T00:00:00Z",
+   "Owner": {
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "type": "user",
+    "id": "Nobody",
+    "Name": "Nobody"
+   },
+   "type": "ticket",
+   "Priority": "0"
+  },
+  {
+   "Due": "1970-01-01T00:00:00Z",
+   "Owner": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "id": "Nobody",
+    "Name": "Nobody"
+   },
+   "type": "ticket",
+   "Priority": "0",
+   "Subject": "Ticket 4: printer on floor 4 not working",
+   "id": "5",
+   "_url": "http://localhost/Ticket/Display.html?id=5",
+   "Status": "new",
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Requestor": [
+    {
+     "type": "user",
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "id": "bob@customer.example"
+    }
+   ],
+   "Queue": {
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "type": "queue",
+    "Name": "General"
+   }
+  },
+  {
+   "Due": "1970-01-01T00:00:00Z",
+   "Owner": {
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "type": "user",
+    "id": "Nobody",
+    "Name": "Nobody"
+   },
+   "type": "ticket",
+   "Priority": "0",
+   "Subject": "Ticket 5: printer on floor 5 not working",
+   "id": "6",
+   "_url": "http://localhost/Ticket/Display.html?id=6",
+   "Status": "new",
+   "Queue": {
+    "type": "queue",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "Name": "General"
+   },
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Requestor": [
+    {
+     "id": "bob@customer.example",
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "type": "user"
+    }
+   ]
+  },
+  {
+   "Subject": "Ticket 6: printer on floor 6 not working",
+   "Requestor": [
+    {
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "type": "user",
+     "id": "bob@customer.example"
+    }
+   ],
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Queue": {
+    "Name": "General",
+    "type": "queue",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1"
+   },
+   "id": "7",
+   "_url": "http://localhost/Ticket/Display.html?id=7",
+   "Status": "new",
+   "Due": "1970-01-01T00:00:00Z",
+   "Owner": {
+    "Name": "Nobody",
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "type": "user",
+    "id": "Nobody"
+   },
+   "type": "ticket",
+   "Priority": "0"
+  },
+  {
+   "Subject": "Ticket 7: printer on floor 7 not working",
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Requestor": [
+    {
+     "type": "user",
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "id": "bob@customer.example"
+    }
+   ],
+   "Queue": {
+    "Name": "General",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "type": "queue"
+   },
+   "id": "8",
+   "_url": "http://localhost/Ticket/Display.html?id=8",
+   "Status": "new",
+   "Due": "1970-01-01T00:00:00Z",
+   "Owner": {
+    "Name": "Nobody",
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "id": "Nobody",
+    "type": "user"
+   },
+   "type": "ticket",
+   "Priority": "0"
+  },
+  {
+   "Priority": "0",
+   "Owner": {
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "id": "Nobody",
+    "type": "user",
+    "Name": "Nobody"
+   },
+   "type": "ticket",
+   "Due": "1970-01-01T00:00:00Z",
+   "Queue": {
+    "Name": "General",
+    "id": "1",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "type": "queue"
+   },
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Requestor": [
+    {
+     "type": "user",
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "id": "bob@customer.example"
+    }
+   ],
+   "Status": "new",
+   "_url": "http://localhost/Ticket/Display.html?id=9",
+   "id": "9",
+   "Subject": "Ticket 8: printer on floor 8 not working"
+  },
+  {
+   "Subject": "Ticket 9: printer on floor 9 not working",
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Queue": {
+    "type": "queue",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "Name": "General"
+   },
+   "Requestor": [
+    {
+     "id": "bob@customer.example",
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "type": "user"
+    }
+   ],
+   "id": "10",
+   "_url": "http://localhost/Ticket/Display.html?id=10",
+   "Status": "new",
+   "Due": "1970-01-01T00:00:00Z",
+   "type": "ticket",
+   "Owner": {
+    "Name": "Nobody",
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "id": "Nobody",
+    "type": "user"
+   },
+   "Priority": "0"
+  },
+  {
+   "Due": "1970-01-01T00:00:00Z",
+   "Priority": "0",
+   "Owner": {
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "type": "user",
+    "id": "Nobody",
+    "Name": "Nobody"
+   },
+   "type": "ticket",
+   "Subject": "Ticket 10: printer on floor 10 not working",
+   "LastUpdated": "2026-11-26T19:12:46Z",
+   "Queue": {
+    "Name": "General",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "type": "queue",
+    "id": "1"
+   },
+   "Requestor": [
+    {
+     "type": "user",
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "id": "bob@customer.example"
+    }
+   ],
+   "Status": "new",
+   "id": "11",
+   "_url": "http://localhost/Ticket/Display.html?id=11"
+  },
+  {
+   "LastUpdated": "2026-11-26T19:12:46Z",
+   "Requestor": [
+    {
+     "id": "bob@customer.example",
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "type": "user"
+    }
+   ],
+   "Queue": {
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "type": "queue",
+    "Name": "General"
+   },
+   "Status": "new",
+   "_url": "http://localhost/Ticket/Display.html?id=12",
+   "id": "12",
+   "Subject": "Ticket 11: printer on floor 11 not working",
+   "Priority": "0",
+   "Owner": {
+    "Name": "Nobody",
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "id": "Nobody",
+    "type": "user"
+   },
+   "type": "ticket",
+   "Due": "1970-01-01T00:00:00Z"
+  },
+  {
+   "Requestor": [
+    {
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "type": "user",
+     "id": "bob@customer.example"
+    }
+   ],
+   "LastUpdated": "2026-11-26T19:12:46Z",
+   "Queue": {
+    "type": "queue",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "Name": "General"
+   },
+   "_url": "http://localhost/Ticket/Display.html?id=13",
+   "id": "13",
+   "Status": "new",
+   "Subject": "Ticket 12: printer on floor 12 not working",
+   "Owner": {
+    "Name": "Nobody",
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "id": "Nobody",
+    "type": "user"
+   },
+   "type": "ticket",
+   "Priority": "0",
+   "Due": "1970-01-01T00:00:00Z"
+  },
+  {
+   "Subject": "Ticket 13: printer on floor 13 not working",
+   "Requestor": [
+    {
+     "type": "user",
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "id": "bob@customer.example"
+    }
+   ],
+   "LastUpdated": "2026-11-26T19:12:46Z",
+   "Queue": {
+    "type": "queue",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "Name": "General"
+   },
+   "Status": "new",
+   "id": "14",
+   "_url": "http://localhost/Ticket/Display.html?id=14",
+   "Due": "1970-01-01T00:00:00Z",
+   "Priority": "0",
+   "Owner": {
+    "Name": "Nobody",
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "type": "user",
+    "id": "Nobody"
+   },
+   "type": "ticket"
+  },
+  {
+   "Owner": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "id": "Nobody",
+    "Name": "Nobody"
+   },
+   "type": "ticket",
+   "Priority": "0",
+   "Due": "1970-01-01T00:00:00Z",
+   "LastUpdated": "2026-11-26T19:12:46Z",
+   "Requestor": [
+    {
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "id": "bob@customer.example",
+     "type": "user"
+    }
+   ],
+   "Queue": {
+    "Name": "General",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1",
+    "type": "queue"
+   },
+   "id": "15",
+   "_url": "http://localhost/Ticket/Display.html?id=15",
+   "Status": "new",
+   "Subject": "Ticket 14: printer on floor 14 not working"
+  },
+  {
+   "Due": "1970-01-01T00:00:00Z",
+   "type": "ticket",
+   "Owner": {
+    "Name": "Nobody",
+    "_url": "http://localhost/REST/2.0/user/Nobody",
+    "type": "user",
+    "id": "Nobody"
+   },
+   "Priority": "0",
+   "Subject": "Ticket 15: printer on floor 15 not working",
+   "Requestor": [
+    {
+     "_url": "http://localhost/REST/2.0/user/bob@customer.example",
+     "type": "user",
+     "id": "bob@customer.example"
+    }
+   ],
+   "LastUpdated": "2026-11-26T19:12:46Z",
+   "Queue": {
+    "id": "1",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "type": "queue",
+    "Name": "General"
+   },
+   "_url": "http://localhost/Ticket/Display.html?id=16",
+   "id": "16",
+   "Status": "new"
+  },
+  {
+   "Queue": {
+    "Name": "General",
+    "type": "queue",
+    "_url": "http://localhost/REST/2.0/queue/1",
+    "id": "1"
+   },
+   "LastUpdated": "2026-11-26T19:12:45Z",
+   "Requestor": [
+    {
+     "_url": "http://localhost/REST/2.0/user/alice@customer.example",
+     "id": "alice@customer.example",
+     "type": "user"
+    }
+   ],
+   "id": "1",
+   "_url": "http://localhost/Ticket/Display.html?id=1",
+   "Status": "open",
+   "Subject": "Replacement switches PO",
+   "type": "ticket",
+   "Owner": {
+    "Name": "staff1",
+    "_url": "http://localhost/REST/2.0/user/staff1",
+    "type": "user",
+    "id": "staff1"
+   },
+   "Priority": "50",
+   "Due": "2026-12-01T17:00:00Z"
+  }
+ ]
+}

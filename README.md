@@ -27,20 +27,47 @@ replace the arguments and list them with `--tools` (any other call is refused by
 
 ```
 docker run ... ghcr.io/<owner>/<repo>:0.3.0-1 \
-  --stdio=mcp-server-rt --outputTransport=streamableHttp --port=8000 --healthEndpoint=/healthz \
+  --stdio=rt-compact --outputTransport=streamableHttp --port=8000 --healthEndpoint=/healthz \
   --tools=search_tickets --tools=get_ticket --tools=get_ticket_history
 ```
 
 and give the RT user only the rights it needs.
 
+## Smaller results
+
+mcp-server-rt passes RT's REST responses through almost unchanged, which wastes a client's context:
+REST URLs on every object, mail headers, MIME container parts, an HTML copy of every emailed message,
+and binary attachments as base64 (one PDF can be hundreds of kilobytes). So the image runs it behind
+`rt-compact` (`compact/`), which shrinks the results of the read tools on the way out:
+
+- References such as `{"type":"user","id":"bob","_url":"…"}` become `"bob"`; REST URLs, empty values
+  and unset dates are dropped. Ticket links to RT's web UI are kept.
+- `get_transaction`: message text only. HTML is dropped where a plain-text version exists and converted
+  to markdown where not (keeping links, tables and quoted text), bodies over 20,000 characters are cut
+  short, binary attachments are listed without content, and only From/To/Cc/Date/Subject/Reply-To
+  headers are kept.
+- `get_ticket`: set custom fields as `{"Name": value}`; only ticket links and lifecycle transitions
+  are kept from `_hyperlinks`; the queue is given by name.
+- `get_ticket_history` leaves out RT's records of the notifications it sent (counted in
+  `HiddenEmailRecords`); `get_ticket_attachments` lists only files; `get_attachment` returns text in
+  full, HTML as markdown, but not binary content.
+- `get_queue`, `get_queue_fields`, `search_tickets`, `lookup_user` and `list_queues` lose the same
+  bookkeeping. Other tools, including all writes, are passed through untouched.
+
+The affected tool descriptions are updated to say so. On a test RT, reading a ticket (the ticket, its
+history and four messages, one an Outlook email with a PDF) went from about 248,000 characters to 3,700.
+To serve mcp-server-rt's output unchanged, pass `--stdio=mcp-server-rt` instead. Tests: `npm ci && npm test`.
+
 ## Versions
 
 Pinned in `package.json` and `package-lock.json`. To upgrade, change the versions in `package.json`, run
-`npm install --package-lock-only --ignore-scripts`, commit, and tag the commit with the mcp-server-rt
-version plus `-N` for rebuilds of the same version (e.g. `0.3.0-2`). The tag's build is published as
-`ghcr.io/<owner>/<repo>:<tag>`.
+`npm install --package-lock-only --ignore-scripts` and `npm test`,
+check the tools still work through `rt-compact` (it relies on RT's REST output, not mcp-server-rt's
+internals), commit, and tag the commit with the mcp-server-rt version plus `-N` for rebuilds of the
+same version (e.g. `0.3.0-2`). The tag's build is published as `ghcr.io/<owner>/<repo>:<tag>`.
 
 ## Licences
 
 mcp-server-rt is GPL-2.0; its source is at https://github.com/bestpractical/mcp-server-rt, at the tag
-matching the version in `package.json`. supergateway and the other dependencies are MIT, ISC or BSD.
+matching the version in `package.json`. supergateway, node-html-markdown and the other dependencies
+are MIT, ISC or BSD.

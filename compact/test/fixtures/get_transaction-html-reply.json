@@ -1,0 +1,131 @@
+{
+ "id": 63,
+ "Creator": {
+  "_url": "http://localhost/REST/2.0/user/root",
+  "type": "user",
+  "id": "root"
+ },
+ "TimeTaken": "0",
+ "Object": {
+  "_url": "http://localhost/Ticket/Display.html?id=1",
+  "id": "1",
+  "type": "ticket"
+ },
+ "Type": "Correspond",
+ "_hyperlinks": [
+  {
+   "id": 63,
+   "_url": "http://localhost/REST/2.0/transaction/63",
+   "type": "transaction",
+   "ref": "self"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/31",
+   "ref": "attachment"
+  },
+  {
+   "ref": "attachment",
+   "_url": "http://localhost/REST/2.0/attachment/32"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/33",
+   "ref": "attachment"
+  }
+ ],
+ "Data": "Re: [example.com #1] Replacement switches PO\n",
+ "Created": "2026-11-26T19:12:45Z",
+ "Attachments": [
+  {
+   "Subject": "Re: [example.com #1] Replacement switches PO",
+   "TransactionId": {
+    "_url": "http://localhost/REST/2.0/transaction/63",
+    "type": "transaction",
+    "id": "63"
+   },
+   "id": 31,
+   "Content": null,
+   "_hyperlinks": [
+    {
+     "id": 31,
+     "_url": "http://localhost/REST/2.0/attachment/31",
+     "type": "attachment",
+     "ref": "self"
+    }
+   ],
+   "Created": "2026-11-26T19:12:45Z",
+   "ContentType": "multipart/alternative",
+   "Parent": "0",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root"
+   },
+   "MessageId": "",
+   "Headers": "From: alice@customer.example\nX-Mailer: MIME-tools 5.522 (Entity 5.522)\nContent-Type: multipart/alternative; boundary=\"----------=_1795720365-68-16\"\nContent-Transfer-Encoding: binary\nMIME-Version: 1.0\nX-RT-Interface: API\nSubject: Re: [example.com #1] Replacement switches PO\nRT-Message-ID: <rt-5.0.11-68-1795720365-593.1-0-0@example.com>\nContent-Length: 0"
+  },
+  {
+   "Content": "Great, thanks!\n\nAlice\n",
+   "id": 32,
+   "TransactionId": {
+    "id": "63",
+    "_url": "http://localhost/REST/2.0/transaction/63",
+    "type": "transaction"
+   },
+   "Subject": "",
+   "Headers": "Content-Disposition: inline\nContent-Transfer-Encoding: binary\nContent-Type: text/plain; charset=\"utf-8\"\nX-RT-Original-Encoding: utf-8\nContent-Length: 22",
+   "MessageId": "",
+   "Parent": {
+    "type": "attachment",
+    "_url": "http://localhost/REST/2.0/attachment/31",
+    "id": "31"
+   },
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root",
+    "type": "user"
+   },
+   "ContentType": "text/plain",
+   "Created": "2026-11-26T19:12:45Z",
+   "_hyperlinks": [
+    {
+     "ref": "self",
+     "_url": "http://localhost/REST/2.0/attachment/32",
+     "type": "attachment",
+     "id": 32
+    }
+   ]
+  },
+  {
+   "_hyperlinks": [
+    {
+     "ref": "self",
+     "id": 33,
+     "_url": "http://localhost/REST/2.0/attachment/33",
+     "type": "attachment"
+    }
+   ],
+   "Created": "2026-11-26T19:12:45Z",
+   "ContentType": "text/html",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root"
+   },
+   "Parent": {
+    "_url": "http://localhost/REST/2.0/attachment/31",
+    "id": "31",
+    "type": "attachment"
+   },
+   "MessageId": "",
+   "Headers": "Content-Transfer-Encoding: binary\nContent-Type: text/html; charset=\"utf-8\"\nContent-Disposition: inline\nX-RT-Original-Encoding: utf-8\nContent-Length: 5732",
+   "Subject": "",
+   "TransactionId": {
+    "id": "63",
+    "_url": "http://localhost/REST/2.0/transaction/63",
+    "type": "transaction"
+   },
+   "id": 33,
+   "Content": "<html><head><style>p.MsoNormal1, li.MsoNormal1, div.MsoNormal1 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal2, li.MsoNormal2, div.MsoNormal2 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal3, li.MsoNormal3, div.MsoNormal3 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal4, li.MsoNormal4, div.MsoNormal4 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal5, li.MsoNormal5, div.MsoNormal5 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal6, li.MsoNormal6, div.MsoNormal6 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal7, li.MsoNormal7, div.MsoNormal7 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal8, li.MsoNormal8, div.MsoNormal8 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal9, li.MsoNormal9, div.MsoNormal9 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal10, li.MsoNormal10, div.MsoNormal10 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal11, li.MsoNormal11, div.MsoNormal11 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal12, li.MsoNormal12, div.MsoNormal12 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal13, li.MsoNormal13, div.MsoNormal13 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal14, li.MsoNormal14, div.MsoNormal14 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal15, li.MsoNormal15, div.MsoNormal15 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal16, li.MsoNormal16, div.MsoNormal16 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal17, li.MsoNormal17, div.MsoNormal17 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal18, li.MsoNormal18, div.MsoNormal18 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal19, li.MsoNormal19, div.MsoNormal19 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal20, li.MsoNormal20, div.MsoNormal20 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal21, li.MsoNormal21, div.MsoNormal21 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal22, li.MsoNormal22, div.MsoNormal22 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal23, li.MsoNormal23, div.MsoNormal23 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal24, li.MsoNormal24, div.MsoNormal24 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal25, li.MsoNormal25, div.MsoNormal25 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal26, li.MsoNormal26, div.MsoNormal26 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal27, li.MsoNormal27, div.MsoNormal27 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal28, li.MsoNormal28, div.MsoNormal28 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal29, li.MsoNormal29, div.MsoNormal29 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal30, li.MsoNormal30, div.MsoNormal30 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal31, li.MsoNormal31, div.MsoNormal31 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal32, li.MsoNormal32, div.MsoNormal32 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal33, li.MsoNormal33, div.MsoNormal33 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal34, li.MsoNormal34, div.MsoNormal34 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal35, li.MsoNormal35, div.MsoNormal35 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal36, li.MsoNormal36, div.MsoNormal36 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal37, li.MsoNormal37, div.MsoNormal37 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal38, li.MsoNormal38, div.MsoNormal38 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal39, li.MsoNormal39, div.MsoNormal39 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal40, li.MsoNormal40, div.MsoNormal40 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\n</style></head><body><p class=MsoNormal>Great, thanks!</p><p class=MsoNormal>Alice</p></body></html>"
+  }
+ ]
+}

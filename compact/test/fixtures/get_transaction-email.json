@@ -1,0 +1,276 @@
+{
+ "TimeTaken": "0",
+ "Object": {
+  "type": "ticket",
+  "_url": "http://localhost/Ticket/Display.html?id=1",
+  "id": "1"
+ },
+ "Type": "Create",
+ "id": 46,
+ "Creator": {
+  "type": "user",
+  "_url": "http://localhost/REST/2.0/user/root",
+  "id": "root"
+ },
+ "Created": "2026-11-26T19:12:44Z",
+ "_hyperlinks": [
+  {
+   "ref": "self",
+   "type": "transaction",
+   "_url": "http://localhost/REST/2.0/transaction/46",
+   "id": 46
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/1",
+   "ref": "attachment"
+  },
+  {
+   "ref": "attachment",
+   "_url": "http://localhost/REST/2.0/attachment/2"
+  },
+  {
+   "ref": "attachment",
+   "_url": "http://localhost/REST/2.0/attachment/3"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/4",
+   "ref": "attachment"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/5",
+   "ref": "attachment"
+  },
+  {
+   "_url": "http://localhost/REST/2.0/attachment/6",
+   "ref": "attachment"
+  },
+  {
+   "ref": "attachment",
+   "_url": "http://localhost/REST/2.0/attachment/7"
+  }
+ ],
+ "Attachments": [
+  {
+   "TransactionId": {
+    "id": "46",
+    "_url": "http://localhost/REST/2.0/transaction/46",
+    "type": "transaction"
+   },
+   "Subject": "Replacement switches PO",
+   "Content": null,
+   "id": 1,
+   "Created": "2026-11-26T19:12:44Z",
+   "ContentType": "multipart/mixed",
+   "_hyperlinks": [
+    {
+     "ref": "self",
+     "id": 1,
+     "_url": "http://localhost/REST/2.0/attachment/1",
+     "type": "attachment"
+    }
+   ],
+   "Headers": "Content-Type: multipart/mixed; boundary=\"----------=_1795720364-68-0\"\nContent-Transfer-Encoding: binary\nMIME-Version: 1.0\nX-Mailer: MIME-tools 5.522 (Entity 5.522)\nFrom: Alice Example <alice@customer.example>\nTo: support@support.example\nSubject: Replacement switches PO\nMessage-ID: <AM0PR01MB1234ABCD@AM0PR01MB1234.eurprd01.prod.outlook.com>\nX-MS-Has-Attach: yes\nContent-Language: en-GB\nContent-Length: 0",
+   "Parent": "0",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root",
+    "type": "user"
+   },
+   "MessageId": "AM0PR01MB1234ABCD@AM0PR01MB1234.eurprd01.prod.outlook.com"
+  },
+  {
+   "id": 2,
+   "Content": null,
+   "Subject": "",
+   "TransactionId": {
+    "type": "transaction",
+    "_url": "http://localhost/REST/2.0/transaction/46",
+    "id": "46"
+   },
+   "MessageId": "",
+   "Parent": {
+    "type": "attachment",
+    "_url": "http://localhost/REST/2.0/attachment/1",
+    "id": "1"
+   },
+   "Creator": {
+    "id": "root",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "type": "user"
+   },
+   "Headers": "Content-Type: multipart/related; boundary=\"----------=_1795720364-68-1\"\nContent-Transfer-Encoding: binary\nMIME-Version: 1.0\nX-Mailer: MIME-tools 5.522 (Entity 5.522)\nContent-Length: 0",
+   "_hyperlinks": [
+    {
+     "id": 2,
+     "_url": "http://localhost/REST/2.0/attachment/2",
+     "type": "attachment",
+     "ref": "self"
+    }
+   ],
+   "ContentType": "multipart/related",
+   "Created": "2026-11-26T19:12:44Z"
+  },
+  {
+   "Subject": "",
+   "TransactionId": {
+    "type": "transaction",
+    "_url": "http://localhost/REST/2.0/transaction/46",
+    "id": "46"
+   },
+   "id": 3,
+   "Content": null,
+   "_hyperlinks": [
+    {
+     "_url": "http://localhost/REST/2.0/attachment/3",
+     "type": "attachment",
+     "id": 3,
+     "ref": "self"
+    }
+   ],
+   "ContentType": "multipart/alternative",
+   "Created": "2026-11-26T19:12:44Z",
+   "MessageId": "",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root"
+   },
+   "Parent": {
+    "_url": "http://localhost/REST/2.0/attachment/2",
+    "type": "attachment",
+    "id": "2"
+   },
+   "Headers": "Content-Type: multipart/alternative; boundary=\"----------=_1795720364-68-2\"\nContent-Transfer-Encoding: binary\nMIME-Version: 1.0\nX-Mailer: MIME-tools 5.522 (Entity 5.522)\nContent-Length: 0"
+  },
+  {
+   "Parent": {
+    "_url": "http://localhost/REST/2.0/attachment/3",
+    "id": "3",
+    "type": "attachment"
+   },
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root",
+    "type": "user"
+   },
+   "MessageId": "",
+   "Headers": "Content-Type: text/plain; charset=\"utf-8\"\nContent-Disposition: inline\nContent-Transfer-Encoding: binary\nContent-Length: 148",
+   "_hyperlinks": [
+    {
+     "ref": "self",
+     "id": 4,
+     "_url": "http://localhost/REST/2.0/attachment/4",
+     "type": "attachment"
+    }
+   ],
+   "Created": "2026-11-26T19:12:44Z",
+   "ContentType": "text/plain",
+   "id": 4,
+   "Content": "Hi,\n\nPlease find attached the purchase order for the replacement switches we discussed.\nCould you confirm delivery for next Tuesday?\n\nThanks,\nAlice\n",
+   "TransactionId": {
+    "type": "transaction",
+    "_url": "http://localhost/REST/2.0/transaction/46",
+    "id": "46"
+   },
+   "Subject": ""
+  },
+  {
+   "MessageId": "",
+   "Creator": {
+    "type": "user",
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root"
+   },
+   "Parent": {
+    "id": "3",
+    "_url": "http://localhost/REST/2.0/attachment/3",
+    "type": "attachment"
+   },
+   "Headers": "Content-Type: text/html; charset=\"utf-8\"\nContent-Disposition: inline\nContent-Transfer-Encoding: binary\nContent-Length: 8415",
+   "_hyperlinks": [
+    {
+     "ref": "self",
+     "_url": "http://localhost/REST/2.0/attachment/5",
+     "id": 5,
+     "type": "attachment"
+    }
+   ],
+   "ContentType": "text/html",
+   "Created": "2026-11-26T19:12:44Z",
+   "id": 5,
+   "Content": "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\"><!--[if !mso]><style>v\\:* {behavior:url(#default#VML);}</style><![endif]--><style><!--\np.MsoNormal1, li.MsoNormal1, div.MsoNormal1 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal2, li.MsoNormal2, div.MsoNormal2 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal3, li.MsoNormal3, div.MsoNormal3 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal4, li.MsoNormal4, div.MsoNormal4 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal5, li.MsoNormal5, div.MsoNormal5 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal6, li.MsoNormal6, div.MsoNormal6 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal7, li.MsoNormal7, div.MsoNormal7 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal8, li.MsoNormal8, div.MsoNormal8 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal9, li.MsoNormal9, div.MsoNormal9 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal10, li.MsoNormal10, div.MsoNormal10 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal11, li.MsoNormal11, div.MsoNormal11 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal12, li.MsoNormal12, div.MsoNormal12 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal13, li.MsoNormal13, div.MsoNormal13 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal14, li.MsoNormal14, div.MsoNormal14 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal15, li.MsoNormal15, div.MsoNormal15 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal16, li.MsoNormal16, div.MsoNormal16 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal17, li.MsoNormal17, div.MsoNormal17 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal18, li.MsoNormal18, div.MsoNormal18 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal19, li.MsoNormal19, div.MsoNormal19 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal20, li.MsoNormal20, div.MsoNormal20 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal21, li.MsoNormal21, div.MsoNormal21 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal22, li.MsoNormal22, div.MsoNormal22 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal23, li.MsoNormal23, div.MsoNormal23 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal24, li.MsoNormal24, div.MsoNormal24 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal25, li.MsoNormal25, div.MsoNormal25 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal26, li.MsoNormal26, div.MsoNormal26 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal27, li.MsoNormal27, div.MsoNormal27 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal28, li.MsoNormal28, div.MsoNormal28 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal29, li.MsoNormal29, div.MsoNormal29 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal30, li.MsoNormal30, div.MsoNormal30 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal31, li.MsoNormal31, div.MsoNormal31 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal32, li.MsoNormal32, div.MsoNormal32 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal33, li.MsoNormal33, div.MsoNormal33 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal34, li.MsoNormal34, div.MsoNormal34 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal35, li.MsoNormal35, div.MsoNormal35 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal36, li.MsoNormal36, div.MsoNormal36 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal37, li.MsoNormal37, div.MsoNormal37 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal38, li.MsoNormal38, div.MsoNormal38 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal39, li.MsoNormal39, div.MsoNormal39 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\np.MsoNormal40, li.MsoNormal40, div.MsoNormal40 {margin:0cm; font-size:11.0pt; font-family:\"Calibri\",sans-serif; mso-fareast-language:EN-US;}\n--></style><!--[if gte mso 9]><xml><o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" /></xml><![endif]--></head><body lang=\"EN-GB\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\"><div class=\"WordSection1\"><p class=\"MsoNormal\"><span style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D;mso-fareast-language:EN-GB\">Hi,<o:p></o:p></span></p><p class=\"MsoNormal\"><span style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D;mso-fareast-language:EN-GB\"><o:p></o:p></span></p><p class=\"MsoNormal\"><span style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D;mso-fareast-language:EN-GB\">Please find attached the purchase order for the replacement switches we discussed.<o:p></o:p></span></p><p class=\"MsoNormal\"><span style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D;mso-fareast-language:EN-GB\">Could you confirm delivery for next Tuesday?<o:p></o:p></span></p><p class=\"MsoNormal\"><span style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D;mso-fareast-language:EN-GB\"><o:p></o:p></span></p><p class=\"MsoNormal\"><span style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D;mso-fareast-language:EN-GB\">Thanks,<o:p></o:p></span></p><p class=\"MsoNormal\"><span style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D;mso-fareast-language:EN-GB\">Alice<o:p></o:p></span></p><p class=\"MsoNormal\"><img width=\"200\" height=\"60\" style=\"width:2.0833in;height:.625in\" id=\"Picture_x0020_1\" src=\"cid:image001.png@01DB3E2A.12345670\" alt=\"Customer Ltd logo\"></p><p class=\"MsoNormal\"><span style=\"font-size:8.0pt;color:gray\">This email and any attachments are confidential and intended solely for the addressee. If you have received this email in error please notify the sender immediately and delete it. Customer Ltd is registered in England and Wales, company number 01234567.<o:p></o:p></span></p><p class=\"MsoNormal\"><span style=\"font-size:8.0pt;color:gray\">This email and any attachments are confidential and intended solely for the addressee. If you have received this email in error please notify the sender immediately and delete it. Customer Ltd is registered in England and Wales, company number 01234567.<o:p></o:p></span></p></div></body></html>",
+   "TransactionId": {
+    "id": "46",
+    "_url": "http://localhost/REST/2.0/transaction/46",
+    "type": "transaction"
+   },
+   "Subject": ""
+  },
+  {
+   "Headers": "Content-Type: image/png; name=\"image001.png\"\nContent-Disposition: inline; filename=\"image001.png\"\nContent-Transfer-Encoding: base64\nContent-ID: <image001.png@01DB3E2A.12345670>\nContent-Length: 6008",
+   "Filename": "image001.png",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "id": "root",
+    "type": "user"
+   },
+   "Created": "2026-11-26T19:12:44Z",
+   "Content": "BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBw==",
+   "TransactionId": {
+    "_url": "http://localhost/REST/2.0/transaction/46",
+    "type": "transaction",
+    "id": "46"
+   },
+   "MessageId": "",
+   "Parent": {
+    "_url": "http://localhost/REST/2.0/attachment/2",
+    "type": "attachment",
+    "id": "2"
+   },
+   "ContentType": "image/png",
+   "_hyperlinks": [
+    {
+     "ref": "self",
+     "type": "attachment",
+     "_url": "http://localhost/REST/2.0/attachment/6",
+     "id": 6
+    }
+   ],
+   "id": 6,
+   "Subject": ""
+  },
+  {
+   "Created": "2026-11-26T19:12:44Z",
+   "Headers": "Content-Type: application/pdf; name=\"PO-48213.pdf\"\nContent-Disposition: attachment; filename=\"PO-48213.pdf\"\nContent-Transfer-Encoding: base64\nContent-Length: 150009",
+   "Creator": {
+    "_url": "http://localhost/REST/2.0/user/root",
+    "type": "user",
+    "id": "root"
+   },
+   "Filename": "PO-48213.pdf",
+   "TransactionId": {
+    "id": "46",
+    "_url": "http://localhost/REST/2.0/transaction/46",
+    "type": "transaction"
+   },
+   "Content": "BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBw==",
+   "ContentType": "application/pdf",
+   "_hyperlinks": [
+    {
+     "ref": "self",
+     "_url": "http://localhost/REST/2.0/attachment/7",
+     "type": "attachment",
+     "id": 7
+    }
+   ],
+   "Parent": {
+    "type": "attachment",
+    "_url": "http://localhost/REST/2.0/attachment/1",
+    "id": "1"
+   },
+   "MessageId": "",
+   "Subject": "",
+   "id": 7
+  }
+ ]
+}
